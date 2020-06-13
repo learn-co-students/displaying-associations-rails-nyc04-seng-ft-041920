@@ -36,7 +36,7 @@ end
 
 # Seed Data
 
-Once you start working with more and more complicated data sets, you will realize that there is a lot of *stuff* you have to set up just to be able to play with your methods. The associations are so vast that you need to make many posts with many categories and all of that! How frustrating. What you are doing is called "seeding" the database. Pretty much putting in some test data so that you can play with your app. In Rails we set up our seed data in `db/seeds.rb`. Then we'll be able to just seed (or re-seed) the database with a quick `rake db:seed`.
+Once you start working with more and more complicated data sets, you will realize that there is a lot of _stuff_ you have to set up just to be able to play with your methods. The associations are so vast that you need to make many posts with many categories and all of that! How frustrating. What you are doing is called "seeding" the database. Pretty much putting in some test data so that you can play with your app. In Rails we set up our seed data in `db/seeds.rb`. Then we'll be able to just seed (or re-seed) the database with a quick `rake db:seed`.
 
 ```ruby
 # db/seeds.rb
@@ -136,7 +136,6 @@ Versus:
 
 In fact, the only difference is what we call `each` on.
 
-
 # Recap
 
 With Active Record's powerful association macros and instance methods, we can treat related models exactly the same as we treat directly-accessed models. As long as the database and classes are set up correctly, Active Record will figure the rest out for us!
@@ -144,4 +143,3 @@ With Active Record's powerful association macros and instance methods, we can tr
 [collection_proxy]: http://edgeapi.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/displaying-associations-rails'>Displaying Associations Data</a> on Learn.co and start learning to code for free.</p>
-
